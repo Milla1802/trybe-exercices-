@@ -1,1 +1,1 @@
-Esse foi o primeiro arquivo README que foi feito no curso para o aprendizado de Git e GitHub 
+Foi criado uma nova branch para o bloco 3, onde criamos nosvos diretórios e criação de um arquivo html, com as primeira tags aprendidas neste dia. 
