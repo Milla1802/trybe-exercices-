@@ -1,9 +1,27 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+}
+
+.navegation{
+    height: 50px;
+    background-color:rgb(0, 0, 0);
+}
+
+.navegation li{
+    float: right;
+    display: inline-block;
+    padding: 10px;;
+    margin: 5px;
+}
+
+.navegation a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
 }
 
 .header h1 {
+    display: block;
     text-align: center;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
