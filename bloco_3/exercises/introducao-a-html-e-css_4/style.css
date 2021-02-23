@@ -29,7 +29,7 @@ body{
 
 .fatos-iteressantes{
     margin-top: 30px;
-    margin-bottom: 100px;;
+    margin-bottom: 100px;
 }
 
 .fatos-iteressantes img{
@@ -45,7 +45,6 @@ body{
     border: black 4px solid;
     border-radius: 6px;
     box-shadow: -3px -2px 8px rgb(68, 63, 63);
-    display: inline-block;
     float: right;
     margin-bottom: 30px;
 }
@@ -83,7 +82,7 @@ body{
     margin-left:140px ;
 }
 
-#description h2{
+#description h2, li{
     text-align: justify;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
 }
@@ -95,4 +94,30 @@ body{
     font-size: 18px;
 }
 
+#video {
+    color: rgb(167, 60, 60);
+}
+
+#bibliografia{
+    text-decoration: none;
+    color: black;
+}
+
+#description ul{
+   line-height: 25px;
+   font-size: 18px;
+}
+
+.footer{
+    height: 60px;
+    background-color: black;
+    color: #fff;
+    margin-top: 50px;;
+}
+
+.footer p {
+    text-align: left;
+    padding:20px;
+    margin-left:110px;
+}
 
