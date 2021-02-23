@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+}
+
+.navegation{
+    height: 50px;
+    background-color:rgb(0, 0, 0);
+}
+
+.navegation li{
+    float: right;
+    display: inline-block;
+    padding: 10px;;
+    margin: 5px;
+}
+
+.navegation a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.header h1 {
+    display: block;
+    text-align: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fatos-iteressantes{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.fatos-iteressantes img{
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+#aside{
+    width: 300px;
+    height:520px ;
+    background-color:#fff;
+    border: black 4px solid;
+    border-radius: 6px;
+    box-shadow: -3px -2px 8px rgb(68, 63, 63);
+    float: right;
+    margin-bottom: 30px;
+}
+
+#aside h3, p{
+    text-align: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+#aside img{
+    width:250px;
+    display: block;
+    margin:auto;
+    border:rgb(58, 49, 49) 2px solid;
+    border-radius: 4px;
+}
+
+#aside a{
+    color: black;
+    font-size: 12px;
+}
+
+#classification {
+    background-color:rgb(68, 63, 63);
+    color: #fff;
+    padding: 5px;
+}
+
+#aside table{
+    margin: auto;
+}
+
+#description{
+    display: block;
+    margin-left:140px ;
+}
+
+#description h2, li{
+    text-align: justify;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+#description p{
+    width: 800px;
+    text-align:justify;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+#video {
+    color: rgb(167, 60, 60);
+}
+
+#bibliografia{
+    text-decoration: none;
+    color: black;
+}
+
+#description ul{
+   line-height: 25px;
+   font-size: 18px;
+}
+
+.footer{
+    height: 60px;
+    background-color: black;
+    color: #fff;
+    margin-top: 50px;;
+}
+
+.footer p {
+    text-align: left;
+    padding:20px;
+    margin-left:110px;
+}
+
