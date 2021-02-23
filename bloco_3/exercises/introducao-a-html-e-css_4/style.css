@@ -18,10 +18,34 @@ body{
     text-decoration: none;
     color:#fff;
     font-weight: bold;
+    font-size: 16px;
 }
 
 .header h1 {
     display: block;
     text-align: center;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fatos-iteressantes{
+    margin-top: 30px;
+}
+
+.fatos-iteressantes img{
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.fatos-iteressantes h2{
+    text-align: center;
+}
+
+.fatos-iteressantes p {
+    width: 1000px;
+    text-align:justify;
+    line-height: 30px;
+    margin: auto;
+    font-size: 18px;
 }
