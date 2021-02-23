@@ -29,6 +29,7 @@ body{
 
 .fatos-iteressantes{
     margin-top: 30px;
+    margin-bottom: 100px;;
 }
 
 .fatos-iteressantes img{
@@ -37,15 +38,61 @@ body{
     margin: auto;
     border-radius: 5px;
 }
-
-.fatos-iteressantes h2{
-    text-align: center;
+#aside{
+    width: 300px;
+    height:520px ;
+    background-color:#fff;
+    border: black 4px solid;
+    border-radius: 6px;
+    box-shadow: -3px -2px 8px rgb(68, 63, 63);
+    display: inline-block;
+    float: right;
+    margin-bottom: 30px;
 }
 
-.fatos-iteressantes p {
-    width: 1000px;
+#aside h3, p{
+    text-align: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+#aside img{
+    width:250px;
+    display: block;
+    margin:auto;
+    border:rgb(58, 49, 49) 2px solid;
+    border-radius: 4px;
+}
+
+#aside a{
+    color: black;
+    font-size: 12px;
+}
+
+#classification {
+    background-color:rgb(68, 63, 63);
+    color: #fff;
+    padding: 5px;
+}
+
+#aside table{
+    margin: auto;
+}
+
+#description{
+    display: block;
+    margin-left:140px ;
+}
+
+#description h2{
+    text-align: justify;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+#description p{
+    width: 800px;
     text-align:justify;
     line-height: 30px;
-    margin: auto;
     font-size: 18px;
 }
+
+
