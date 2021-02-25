@@ -1,7 +1,8 @@
-let numero = [10,20,30,40]; 
-let total = 0;
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let result = 0;
 
-for (let i = 0; i < numero.length; i++){
-    total = total + numero[i];
-    console.log(total); 
+for (let i = 0; i < numbers.length; i++) {
+  result += numbers[i];
 }
+
+console.log(result);
