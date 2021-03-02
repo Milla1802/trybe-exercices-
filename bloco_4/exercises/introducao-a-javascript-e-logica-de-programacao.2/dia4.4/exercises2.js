@@ -49,14 +49,22 @@ function maiorNome(nomes) {
     console.log(maiorNome(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
 }
 
-function maiorPalavra(palavras) {
-    let maiorPalavra = palavras[0];
-    for (let indice in palavras) {
-      if (maiorPalavra.length < palavras[indice].length) {
-        maiorPalavra = palavras[indice];
-      }
+// Não intendi por que o meu código não aparece nada ! 
+
+// Exercício 5: 
+
+function numRepetido(numeros) {
+    let numerosRept = 0; 
+
+    for(let repet in numeros){
+
+        numerosRept = repet;
+        if(numeros[repet] === numerosRept){
+            numerosRept = numeros[repet]; 
+        }
+
+        return numerosRept; 
     }
-    return maiorPalavra;
-  }
-  
-  console.log(maiorPalavra(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'])); 
+
+    console.log(numRepetido([2, 3, 2, 5, 8, 2, 3]));
+}
