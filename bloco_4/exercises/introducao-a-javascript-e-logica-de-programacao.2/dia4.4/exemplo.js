@@ -1,3 +1,13 @@
+let palavra = "arara"; 
+let inversoPalavra = palavra.split("").reverse().join(""); 
+
+console.log(inversoPalavra); 
+
+
+
+
+
+//----------------------------------------------------
 let palavra = "Trybe"; 
 let palavra2 = "be";
 
@@ -11,17 +21,3 @@ let comparacao = inversoPalavra != inversoPalavra2;
 console.log(comparacao);
 console.log(inversoPalavra, inversoPalavra2);
 
-function verificaFimPalavra(palavra, fimPalavra) {
-    let inversoPalavra = palavra.split("").reverse().join("");
-    let inversoFimPalavra = fimPalavra.split("").reverse().join("");
-  
-    for (let i = 0; i < inversoFimPalavra.length; i += 1) {
-      if (inversoPalavra[i] != inversoFimPalavra[i]) {
-        return false;
-      } else {
-        return true;
-      }
-    }
-  }
-  
-  console.log(verificaFimPalavra("camila", "bo")); 

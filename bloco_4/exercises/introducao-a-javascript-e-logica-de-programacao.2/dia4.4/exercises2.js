@@ -1,3 +1,21 @@
+//Exercício 1:
+function verificarPolindromo(palavra){
+    let inversoPalavra = palavra.split("").reverse().join("");
+
+    for (let index = 0; index < inversoPalavra.length; index +=1){
+        
+        if (inversoPalavra[index] != palavra[index]) {
+            return false;
+        
+        } else{
+            
+            return true;
+        }
+    }
+}
+console.log(verificarPolindromo("arara")); 
+
+
 // Exercício 2:
 function maiorNum(array) {
     
@@ -103,6 +121,8 @@ console.log(somatorio(5));
  }
 
  console.log(verificaFimPalavra('Trybe', 'be'));
+
+
 
 
   
