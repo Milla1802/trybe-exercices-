@@ -1,3 +1,13 @@
-let nome = ""; 
+function somatorio(numero) {
+    
+    let receberNumero = 0; 
 
-console.log(nome.length); 
+    for(let index = 1; index <= numero; index +=1){
+    receberNumero = receberNumero + index
+           
+    }
+    return receberNumero; 
+}
+
+console.log(somatorio(5)); 
+  

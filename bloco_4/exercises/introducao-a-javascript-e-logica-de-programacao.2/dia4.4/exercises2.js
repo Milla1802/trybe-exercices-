@@ -39,17 +39,18 @@ function maiorNome(nomes) {
 
     for (let key in nomes){
         
-        if (maisCaracteres.length < nome[key].length){
+        if (maisCaracteres.length < nomes[key].length){
             maisCaracteres = nomes[key]; 
         }
 
-        return maisCaracteres; 
     }
+    return maisCaracteres; 
 
-    console.log(maiorNome(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
+    
 }
 
-// Não intendi por que o meu código não aparece nada ! 
+console.log(maiorNome(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
+
 
 // Exercício 5: 
 
@@ -63,8 +64,25 @@ function numRepetido(numeros) {
             numerosRept = numeros[repet]; 
         }
 
-        return numerosRept; 
     }
+    return numerosRept; 
 
-    console.log(numRepetido([2, 3, 2, 5, 8, 2, 3]));
 }
+console.log(numRepetido([2, 3, 2, 5, 8, 2, 3])); // Não consegui fazer questão. 
+
+
+
+//Questão 6:
+function somatorio(numero) {
+    
+    let receberNumero = 0; 
+
+    for(let index = 1; index <= numero; index +=1){
+    receberNumero = receberNumero + index
+           
+    }
+    return receberNumero; 
+}
+
+console.log(somatorio(5)); 
+  
