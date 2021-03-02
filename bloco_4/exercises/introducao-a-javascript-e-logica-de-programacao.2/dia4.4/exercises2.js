@@ -85,4 +85,24 @@ function somatorio(numero) {
 }
 
 console.log(somatorio(5)); 
+
+// Exercício 7: 
+
+ function verificaFimPalavra(stringword, stringending){
+
+    let inversoPalavra = stringword.split("").reverse().join("");
+    let inversoFimPalavra = stringending.split("").reverse().join("");
+
+    for (let index =  0; index < inversoFimPalavra.length; index +=1){
+        if (inversoPalavra[index] !== inversoFimPalavra[index]) {
+            return false; 
+        } else {
+            return true; 
+        }
+    }
+ }
+
+ console.log(verificaFimPalavra('Trybe', 'be'));
+
+
   
