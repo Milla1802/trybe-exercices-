@@ -9,3 +9,24 @@ for(let index = 0; index < estadosList.length; index += 1){
 
     
 }
+
+//Botão de Limpar 
+let button = document.getElementById('clean'); 
+button.addEventListener('click',cleanAll);
+
+function cleanAll(){
+    let name = document.getElementById('name').value = '';
+    let email = document.getElementById('email').value = '';
+    let cpf = document.getElementById('cpf').value = '';
+    let endereco = document.getElementById('endereco').value = '';
+    let cidade = document.getElementById('cidade').value = '';
+    let estado = document.getElementById('estado').value = estadosList[0];
+    let resumo = document.getElementById('resumo').value = 'Utilize esse espaço para resumir seu currículo em um máximo de 1000 caracteres.';
+    let cargo = document.getElementById('cargo').value = '';
+    let date = document.getElementById('date').value = '';
+
+
+
+    
+    
+}
