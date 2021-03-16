@@ -11,7 +11,7 @@ for(let index = 0; index < estadosList.length; index += 1){
 }
 
 //Botão de Limpar 
-let button = document.getElementById('clean'); 
+let button = document.getElementById('clear'); 
 button.addEventListener('click',cleanAll);
 
 function cleanAll(){
@@ -24,6 +24,5 @@ function cleanAll(){
     let resumo = document.getElementById('resumo').value = '';
     let cargo = document.getElementById('cargo').value = '';
     let date = document.getElementById('date').value = '';
-
 
 }

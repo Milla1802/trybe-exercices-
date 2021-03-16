@@ -1,4 +1,4 @@
-* {
+/* * {
     top: 0;
     left: 0;
     font-family: Gill Sans, sans-serif;
@@ -46,11 +46,4 @@ input, textarea, select{
     padding: 5px;
 
 }
-option{
-    font-weight: bold;
-}
-
-option ::placeholder {
-    background-color: rgb(100, 100, 197) ;
-
-}
+ */
