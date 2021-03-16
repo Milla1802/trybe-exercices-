@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <fieldset>
+    <div id="cabecalho">
+        <h1>Cadastro de Currículo</h1>
+    </div>
+
+    <fieldset class="boxes">
         <label for="name">Nome Completo</label>
         <input type="text" name="" id="name" placeholder="Digite seu nome completo" maxlength="40" required>
         <br><br>
@@ -32,9 +36,9 @@
         <label for="tipo2"><input type="radio" name="tipo" id="tipo2" value="apartamento">Apartamento</label>
         
     </fieldset>
-    <fieldset>
+    <fieldset class="boxes">
         <label for="resumo">Resumo do Currículo</label>
-        <textarea name="resumo" id="resumo" cols="50" rows="10" maxlength="1000" required>Utilize esse espaço para resumir seu currículo em um máximo de 1000 caracteres.</textarea>
+        <textarea name="resumo" id="resumo" cols="50" rows="10" maxlength="1000" required placeholder="Utilize esse espaço para resumir seu currículo em um máximo de 1000 caracteres."></textarea>
         <br><br>
         <label for="cargo">Descrição do Cargo</label>
         <input type="text" name="cargo" id="cargo" maxlength="500"required placeholder="Digite seu Cargo">
@@ -42,7 +46,8 @@
         <label for="date">Data de Início</label>
         <input type="date" name="date" id="date" required>
     </fieldset>
-    <br><br>
+    
+    <input type="submit" value="Eviar" id="enviar">
     <input type="submit" value="Limpar" id="clean">
 
 

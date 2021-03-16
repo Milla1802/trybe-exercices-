@@ -21,12 +21,9 @@ function cleanAll(){
     let endereco = document.getElementById('endereco').value = '';
     let cidade = document.getElementById('cidade').value = '';
     let estado = document.getElementById('estado').value = estadosList[0];
-    let resumo = document.getElementById('resumo').value = 'Utilize esse espaço para resumir seu currículo em um máximo de 1000 caracteres.';
+    let resumo = document.getElementById('resumo').value = '';
     let cargo = document.getElementById('cargo').value = '';
     let date = document.getElementById('date').value = '';
 
 
-
-    
-    
 }
