@@ -20,3 +20,37 @@ oddsAndEvens.sort((a,b) => a - b );
 console.log(`Os números ${oddsAndEvens} se encontram ordenados de forma crescente`);
 
 
+// parte 2
+
+const numero = (val) => {
+   let result = 1; 
+    if(val === 0){
+        return result = 1; 
+    }
+
+   for(let index = 2; index <= val; index += 1){
+       result = result * index; 
+   }
+
+   return result; 
+} 
+
+console.log(numero(5))
+
+// questão 2 - part 2
+
+const longestWord = (palavra) => {
+    let arraySepar = palavra.split(' ');
+    let contador = 0;
+    let result = ''; 
+
+    for(const word of arraySepar){
+        if(word.length > contador){
+            result = word;
+        }
+    }
+    return result
+
+}
+
+console.log(longestWord("Antônio foi no banheiro e não sabemos o que aconteceu"));
