@@ -48,7 +48,7 @@ const order = {
   const orderModifier = (order) => {
     order.name = 'Luiz Silva'; 
     order.payment.total = 50; 
-    console.log(`Olá ${order.name}, o total de seu pedido de muzzarella, calabresa e ${order.order.drinks.coke.type} é de R$ ${order.payment.total}.`);
+    console.log(`Olá ${order.name}, o total de seu pedido de muzzarella, calabresa e ${order.order.drinks.co.type} é de R$ ${order.payment.total}.`);
     // "Olá Luiz Silva, o total do seu pedido de muzzarella, calabresa e Coca-Cola Zero é R$ 50,00."
   }
   
