@@ -61,12 +61,15 @@ const books = [
     },
 ];
 
-function fantasyOrScienceFiction() {
-    // escreva seu código aqui
-    const genreFantasy = books.filter((book) => {
-        return book.genre === 'Fantasia';
-    });
-    return genreFantasy;
+
+function nameAndAge() {
+  // escreva seu código aqui
+  
+  const arrayObjects = books.map((book) => ({
+    age:book.releaseYear - book.author.birthYear,
+    author: book.author.name,
+  })).sort((a,b) => a.age - b.age); 
+  return arrayObjects; 
 }
 
-console.log(fantasyOrScienceFiction()); 
+console.log(nameAndAge());
