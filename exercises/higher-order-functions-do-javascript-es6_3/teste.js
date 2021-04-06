@@ -59,14 +59,14 @@ const books = [
       },
       releaseYear: 1928,
     },
-  ];
+];
 
-function formatedBookNames() {
+function fantasyOrScienceFiction() {
     // escreva seu código aqui
-    const arrayStrings = books.map((book) => {
-      return `${book.name} - ${book.genre} - ${book.author.name}`;
+    const genreFantasy = books.filter((book) => {
+        return book.genre === 'Fantasia';
     });
-    return arrayStrings;
+    return genreFantasy;
 }
 
-console.log(formatedBookNames());
+console.log(fantasyOrScienceFiction()); 
