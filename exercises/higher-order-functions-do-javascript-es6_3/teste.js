@@ -62,14 +62,13 @@ const books = [
 ];
 
 
-function nameAndAge() {
+function oldBooks() {
   // escreva seu código aqui
-  
-  const arrayObjects = books.map((book) => ({
-    age:book.releaseYear - book.author.birthYear,
-    author: book.author.name,
-  })).sort((a,b) => a.age - b.age); 
-  return arrayObjects; 
+  const year = 2021; 
+  const oldBooksList = books.filter((book) => {
+    return (year - book.releaseYear) > 60
+  }).sort((a,b) => a.releaseYear - b.releaseYear);
+  return oldBooksList;
 }
 
-console.log(nameAndAge());
+console.log(oldBooks());
