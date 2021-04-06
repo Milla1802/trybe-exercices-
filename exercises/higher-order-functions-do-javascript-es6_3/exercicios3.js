@@ -109,7 +109,7 @@ const expectedResult = [
 function fantasyOrScienceFiction() {
   // escreva seu código aqui
   const genreFantasy = books.filter((book) => {
-    return book.genre === 'Fantasia';
+    return book.genre === 'Fantasia' || book.genre === 'Ficção Científica';
     });
     return genreFantasy;
 }
