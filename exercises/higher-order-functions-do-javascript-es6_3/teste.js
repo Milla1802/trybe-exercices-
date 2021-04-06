@@ -62,13 +62,23 @@ const books = [
 ];
 
 
-function oldBooks() {
+function fantasyOrScienceFictionAuthors() {
   // escreva seu código aqui
-  const year = 2021; 
-  const oldBooksList = books.filter((book) => {
-    return (year - book.releaseYear) > 60
-  }).sort((a,b) => a.releaseYear - b.releaseYear);
-  return oldBooksList;
+  return books 
+  .filter((book) => book.genre === 'Fantasia' || book.genre === 'Ficção Científica')
+  .map((book) => book.author.name).sort() ;
+
 }
 
-console.log(oldBooks());
+
+console.log(fantasyOrScienceFictionAuthors());
+
+/* function fantasyOrScienceFictionAuthors() {
+  // escreva seu código aqui
+  const genreBooks = ['Ficção Científica', 'Fantasia']; 
+  return books
+  .filter((book) => genreBooks.includes(book.genre))
+  .map((book) => book.author.name);
+ 
+
+} */
