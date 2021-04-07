@@ -1,4 +1,3 @@
-
 const assert = require('assert');
 
 const books = [
@@ -64,14 +63,18 @@ const books = [
   },
 ];
 
+const expectedResult = 43;
+
+
 const catchAges = books.map((book) => book.releaseYear - book.author.birthYear);
-console.log(catchAges);
+    //console.log(catchAges);
 
 function averageAge() {
     // escreva seu código aqui
     const tam = catchAges.length;
-    return catchAges.reduce((acc,curr) => acc + curr / tam); 
-     
+    const somat = catchAges.reduce((acc,curr) => (acc + curr)); 
+    return somat / tam;  
 }
 
-console.log(averageAge());
+
+assert.strictEqual(averageAge(), expectedResult);

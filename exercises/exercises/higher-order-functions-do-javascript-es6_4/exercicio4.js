@@ -1,4 +1,3 @@
-
 const assert = require('assert');
 
 const books = [
@@ -35,7 +34,6 @@ const books = [
   {
     id: 4,
     name: 'Duna',
-    genre: 'Ficção Científica',
     author: {
       name: 'Frank Herbert',
       birthYear: 1920,
@@ -64,14 +62,19 @@ const books = [
   },
 ];
 
-const catchAges = books.map((book) => book.releaseYear - book.author.birthYear);
-console.log(catchAges);
+const expectedResult = {
+  author: {
+    birthYear: 1948,
+    name: 'George R. R. Martin',
+  },
+  genre: 'Fantasia',
+  id: 1,
+  name: 'As Crônicas de Gelo e Fogo',
+  releaseYear: 1991,
+};
 
-function averageAge() {
-    // escreva seu código aqui
-    const tam = catchAges.length;
-    return catchAges.reduce((acc,curr) => acc + curr / tam); 
-     
+function longestNamedBook() {
+  // escreva seu código aqui
 }
 
-console.log(averageAge());
+assert.deepStrictEqual(longestNamedBook(), expectedResult);

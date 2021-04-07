@@ -81,8 +81,6 @@ const reduceNames = (acc, book, index, array) => {
     return books.reduce(reduceNames, 'Nomes:');
 }
 
-console.log(allNames());
-
 // Não consegui entender a resolução dessa atividade. 
 
 assert.deepStrictEqual(allNames(), 'Nomes: George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.');
