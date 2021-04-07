@@ -1,5 +1,4 @@
 
-
 const assert = require('assert');
 
 const names = [
@@ -16,6 +15,5 @@ function containsA() {
      return acumulator;
   }, 0), 0);
 }
-console.log(containsA())
 
-//assert.deepStrictEqual(containsA(), 20);
+assert.deepStrictEqual(containsA(), 20);
